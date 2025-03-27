@@ -24,14 +24,14 @@ function Header() {
     },
   ];
   return (
-    <div className="flex items-center w-screen justify-between border-b-[0.4px]">
-      <div className="w-[90px] h-90px bg-white">
+    <div className="flex items-center fixed w-full justify-between border-b-[1px] bg-white ">
+      <div className="w-[90px] h-[90px]">
         <img src="/logo.jpg" />
       </div>
 
-      <div className="hidden md:flex gap-14">
+      <div className="hidden md:flex gap-14 ">
         {nav.map((items) => (
-          <div className="cursor-pointer hover:bg-sky-700 font-medium font-bold">
+          <div className="cursor-pointer hover:bg-sky-700 text-black">
             {items.name}
           </div>
         ))}

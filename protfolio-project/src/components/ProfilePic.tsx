@@ -1,8 +1,10 @@
 
 function ProfilePic(){
     return (
-        <div  className='fixed '>
+        <div  className='fixed mt-[90px]'>
             <img src = "/profile.jpg" className='h-screen object-cover w-screen '/>
+            
+            
         </div>
     )
 }
