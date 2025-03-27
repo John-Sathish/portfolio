@@ -1,4 +1,3 @@
-import React from "react";
 
 function Header() {
   const nav = [
@@ -29,10 +28,19 @@ function Header() {
         <img src="/logo.jpg" />
       </div>
 
-      <div className="hidden md:flex gap-14 ">
-        {nav.map((items) => (
-          <div className="cursor-pointer hover:bg-sky-700 text-black">
-            {items.name}
+      <div className="hidden md:flex gap-14">
+        {nav.map((item) => (
+          <div
+            key={item.id}
+            onClick={() => {
+              const section = document.getElementById(item.name.toLowerCase());
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+            className="cursor-pointer hover:scale-110 transition-all ease-in-out text-black rounded-full"
+          >
+            {item.name}
           </div>
         ))}
       </div>

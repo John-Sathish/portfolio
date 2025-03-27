@@ -1,6 +1,5 @@
-import React from "react";
 import { IoLogoGithub,IoLogoLinkedin,
-    IoLogoDribbble } from "react-icons/io5";
+    } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 function SideBar() {
   return (

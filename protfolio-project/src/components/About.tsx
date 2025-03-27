@@ -1,4 +1,3 @@
-import React from 'react'
 import Strings from '../shared/Strings'
 import { FaQuoteLeft,FaQuoteRight } from "react-icons/fa";
 
