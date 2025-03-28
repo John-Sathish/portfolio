@@ -2,17 +2,6 @@ import Strings from "../shared/Strings";
 
 const experienceData = [
   {
-    title: "Spotify Albums - BJSS",
-    location: "Nottingham",
-    date: "Summer 2025",
-    description: [
-      "I lead a team of 8 people, organising and managing sprint plans and retrospectives to provide project deliverables on time.",
-      "I made use of scrum approach with 2-week sprint cycles to make steady progress",
-      "Full stack developer utilizing React and the Spotify API to develop a tournament bracket-style game between albums on Spotify.",
-      "I served as a main source of communication between the client (BJSS) and us throughout the project",
-    ],
-  },
-  {
     title: "Customer Advisor – Boots",
     location: "Nottingham",
     date: "June 2024–present",
@@ -20,16 +9,6 @@ const experienceData = [
       "Assisted 50+ customers daily with product queries",
       "Worked in a fast-paced retail environment",
       "Handled sales and handled filling of low stocks",
-    ],
-  },
-  {
-    title: "Software Engineering Virtual Experience – HP",
-    location: "Remote",
-    date: "June 2023 – August 2023",
-    description: [
-      "Wrote a proposal for a RESTful web service to manage a list of employees",
-      "Built a web server application in Spring Boot that can accept and respond to HTTP requests and support uploading JSON data.",
-      "Developed and ran unit tests to assess my Spring Boot application’s performance.",
     ],
   },
   {
@@ -43,6 +22,29 @@ const experienceData = [
       "I served as a main source of communication between the client (BJSS) and us throughout the project",
     ],
   },
+  {
+    title: "Spotify Albums - BJSS",
+    location: "Nottingham",
+    date: "September 2023 - May 2024",
+    description: [
+      "I lead a team of 8 people, organising and managing sprint plans and retrospectives to provide project deliverables on time.",
+      "I made use of scrum approach with 2-week sprint cycles to make steady progress",
+      "Full stack developer utilizing React and the Spotify API to develop a tournament bracket-style game between albums on Spotify.",
+      "I served as a main source of communication between the client (BJSS) and us throughout the project",
+    ],
+  },
+
+  {
+    title: "Software Engineering Virtual Experience – HP",
+    location: "Remote",
+    date: "June 2023 – August 2023",
+    description: [
+      "Wrote a proposal for a RESTful web service to manage a list of employees",
+      "Built a web server application in Spring Boot that can accept and respond to HTTP requests and support uploading JSON data.",
+      "Developed and ran unit tests to assess my Spring Boot application’s performance.",
+    ],
+  },
+
 ];
 
 function Experience() {
@@ -61,7 +63,7 @@ function Experience() {
           {experienceData.map((exp, index) => (
             <div
               key={index}
-              className="bg-slate-800 p-5 rounded-xl shadow-md cursor-pointer hover:scale-110 transition-all ease-in-out"
+              className="bg-slate-800 p-5 rounded-xl shadow-md cursor-pointer "
             >
               <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
               <p className="text-sm text-slate-400">

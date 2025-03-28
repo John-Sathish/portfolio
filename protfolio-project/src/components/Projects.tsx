@@ -6,17 +6,17 @@ const projects = [
     description:
       "Fun bracket-style game where users vote on their favorite albums. Built with React and Spotify API.",
     tech: ["React", "Spotify API", "CSS"],
-    image: "https://via.placeholder.com/400x200", // Replace with real image
+    image: "/spotifyLogo.avif", // Replace with real image
     github: "https://github.com/John-Sathish/SpotifyBracket",
-    demo: "https://spotify-tournament.netlify.app",
+    demo: null,
   },
   {
     title: "Heart Disease Predictor",
     description:
       "ML-powered app to predict heart disease risk from user input. Trained with scikit-learn.",
-    tech: ["Python", "scikit-learn", "Flask"],
-    image: "https://via.placeholder.com/400x200",
-    github: "https://github.com/yourusername/heart-predictor",
+    tech: ["Python", "scikit-learn", "Jupeter notebook"],
+    image: "/predictor.jpg",
+    github: null,
     demo: null,
   },
   {
@@ -24,8 +24,8 @@ const projects = [
     description:
       "Full-stack web app to search, save, and manage movies using a custom backend.",
     tech: ["Java", "Spring Boot", "MySQL"],
-    image: "https://via.placeholder.com/400x200",
-    github: "https://github.com/yourusername/movie-site",
+    image: "/movie.png",
+    github: null,
     demo: null,
   },
 ];

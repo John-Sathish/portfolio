@@ -16,10 +16,10 @@ function Introduction() {
         >
           JOHN SATHISH
         </h2>
-        <img
+        {/* <img
           src="/profile.jpg"
           className="w-[160px] h-[160xp] bg-gray-200 p-7 rounded-full"
-        />
+        /> */}
       </div>
     </section>
   );

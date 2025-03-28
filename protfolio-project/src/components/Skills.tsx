@@ -9,6 +9,8 @@ const skills = {
     "SQL",
     "Spring Boot",
     "REST API",
+    "Reacts",
+    "Web development"
   ],
   "Tools & Technologies": [
     "Windows",
@@ -44,7 +46,7 @@ function Skills() {
                 {items.map((skill, i) => (
                   <span
                     key={i}
-                    className="bg-slate-700 text-slate-100 px-4 py-2 rounded-full text-sm hover:bg-blue-600 transition"
+                    className="bg-slate-700 text-slate-100 px-4 py-2 rounded-full text-sm "
                   >
                     {skill}
                   </span>
