@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center ">
         <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
         <p className="text-slate-400 mb-8">
-          I'm open to internship opportunities, collaborations, or just chatting tech. Drop me a message or grab my CV!
+          I'm open to internship opportunities, collaborations, or just chatting tech. Drop me a message or email
         </p>
 
         {/* Social Links */}

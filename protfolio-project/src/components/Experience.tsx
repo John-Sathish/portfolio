@@ -16,10 +16,10 @@ const experienceData = [
     location: "Nottingham",
     date: "March 2025",
     description: [
-      "I lead a team of 8 people, organising and managing sprint plans and retrospectives to provide project deliverables on time.",
-      "I made use of scrum approach with 2-week sprint cycles to make steady progress",
-      "Full stack developer utilizing React and the Spotify API to develop a tournament bracket-style game between albums on Spotify.",
-      "I served as a main source of communication between the client (BJSS) and us throughout the project",
+      "Collaborated with a team at a MedTech hackathon to develop a symptom diagnosis chatbot and a medical language translator proof-of-concept.",
+      "Designed solutions aimed at improving doctor-patient communication and diagnostic efficiency.",
+      "Presented the functional prototype to a panel of doctors, professors, and small business owners, receiving valuable feedback",
+      
     ],
   },
   {
