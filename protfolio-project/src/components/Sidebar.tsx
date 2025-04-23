@@ -26,7 +26,7 @@ function SideBar() {
   }, []);
 
   return (
-    <div className="w-[90px] border-r-[1px] dark:bg-slate-800 h-screen fixed flex flex-col justify-around items-center mt-[90px]">
+    <div className="w-[90px] border-r-[1px] bg-slate-800 h-screen fixed flex flex-col justify-around items-center mt-[90px]">
       <h2 className="-rotate-90 tracking-widest text-white text-sm">{currentSection}</h2>
 
       <div className="flex flex-col gap-7 mb-8 text-[20px]">
